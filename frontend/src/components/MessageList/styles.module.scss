@@ -12,6 +12,7 @@
 }
 
 .messageList {
+  margin-top: -90px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -22,7 +23,7 @@
   .message {
     max-width: 440px;
 
-    &:nth-child(2) {
+    &:nth-child(even) {
       margin-left: 80px;
     }
 
